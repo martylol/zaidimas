@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1616448662979,
+  "index": "https://martylol.github.io/zaidimas/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://martylol.github.io/zaidimas/favicon.ico",
+        "https://martylol.github.io/zaidimas/index.html",
+        "https://martylol.github.io/zaidimas/main-es2015.72a3e4b23ea958f484de.js",
+        "https://martylol.github.io/zaidimas/main-es5.72a3e4b23ea958f484de.js",
+        "https://martylol.github.io/zaidimas/manifest.webmanifest",
+        "https://martylol.github.io/zaidimas/polyfills-es2015.ffa9bb4e015925544f91.js",
+        "https://martylol.github.io/zaidimas/polyfills-es5.026233df937cbf728097.js",
+        "https://martylol.github.io/zaidimas/runtime-es2015.cdfb0ddb511f65fdc0a0.js",
+        "https://martylol.github.io/zaidimas/runtime-es5.cdfb0ddb511f65fdc0a0.js",
+        "https://martylol.github.io/zaidimas/styles.c58c683e510ece3ba4f6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://martylol.github.io/zaidimas/assets/icons/icon-128x128.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-144x144.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-152x152.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-192x192.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-384x384.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-512x512.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-72x72.png",
+        "https://martylol.github.io/zaidimas/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://martylol.github.io/zaidimas/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://martylol.github.io/zaidimas/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://martylol.github.io/zaidimas/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://martylol.github.io/zaidimas/index.html": "279fb7c48c96ddd48a26d4b363062609c6491cfd",
+    "https://martylol.github.io/zaidimas/main-es2015.72a3e4b23ea958f484de.js": "150ef4146974a739fd34b017afb67cae8b6d1f7d",
+    "https://martylol.github.io/zaidimas/main-es5.72a3e4b23ea958f484de.js": "69097913db086246765bf9720fe45f83c3118041",
+    "https://martylol.github.io/zaidimas/manifest.webmanifest": "1e50cb1dc74188f4994a39a3f0df3cc0c454dc13",
+    "https://martylol.github.io/zaidimas/polyfills-es2015.ffa9bb4e015925544f91.js": "79b2ff5ba292ae9e56f0b43982b9e76d9ddcf285",
+    "https://martylol.github.io/zaidimas/polyfills-es5.026233df937cbf728097.js": "bd69c2453fb0783786f90a9f44e071102828d53d",
+    "https://martylol.github.io/zaidimas/runtime-es2015.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://martylol.github.io/zaidimas/runtime-es5.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://martylol.github.io/zaidimas/styles.c58c683e510ece3ba4f6.css": "a26f247df488a3edc8b495d92235b8f066e11dcf"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
