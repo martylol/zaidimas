@@ -1,0 +1,21 @@
+<h1>Dabartinis žaidėjas: {{ player }} </h1>
+
+<button nbButton outline status="danger" (click)="newGame()">Žaisti iš naujo</button>
+
+
+<h2 *ngIf="winner">
+    Žaidėjas {{ winner }} laimėjo!
+</h2>
+
+
+<main>
+    <app-square 
+        *ngFor="let val of squares; let i = index" 
+        [value]="val"
+        (click)="makeMove(i)"> 
+
+    </app-square>
+</main>
+
+
+
